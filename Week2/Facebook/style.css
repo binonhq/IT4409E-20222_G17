@@ -1,0 +1,157 @@
+* {
+    margin: 7px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E3F2FD;
+}
+
+.container {
+    width: 500px;
+    height: 686px;
+    padding: 5px 5px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 19px;
+    color: #555c66;
+    font-weight: 500;
+}
+
+hr {
+    margin: 0;
+}
+
+.name {
+    display: flex;
+}
+.name input {
+    width: 208px;
+    margin-right: 5px;
+}
+
+input, select {
+    font-size: 17px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #a9a9aa;
+    width: 450px;
+    margin-bottom: 0px;
+    height: 40px;
+}
+
+.label {
+    display: block;
+    font-size: 13px;
+    padding-left: 7px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: #555c66;
+}
+.birthday {
+    margin-top:0px 
+}
+.birthday select {
+    width: 149.5px;
+    margin-right: 0px;
+}
+
+.gender {
+    display: flex;
+    margin-top: 0px;
+}
+.sex {
+    margin-right: 4px;
+    display: flex;
+    font-size: 17px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #a9a9aa;
+    width: 126.5px;
+    height: 40px;
+}
+
+.sex input{
+    height: 15px;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+
+p {
+    font-size: 13px;
+    color: #555c66;
+    padding-left: 7px;
+    margin-bottom: 12px;
+}
+
+strong {
+    cursor: pointer;
+    margin: 0;
+    font-weight: normal;
+    color: #385898;
+}
+
+strong:hover{
+    text-decoration:underline;
+}
+
+.signup {
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 50px;
+    text-shadow: none;
+}
+
+.signup:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+
+.hadaccount {
+    display: block;
+    cursor: pointer;
+    border: none;
+    color: #1675f3;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.hadaccount:hover {
+    text-decoration:underline;
+}
