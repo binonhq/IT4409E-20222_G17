@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+a,
+header span {
+    margin-right: 20px;
+    color: #606368;
+    text-decoration: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+main img {
+    object-fit: contain;
+    height: 92px;
+}
+
+.searchbox {
+    align-items: center;
+    display: flex;
+    margin: 28px auto;
+    height: 44px;
+    width: auto;
+    max-width: 638px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.searchbox span {
+    padding: 0px 5px;
+    cursor: pointer;
+    color: gray;
+}
+
+.searchbox input {
+    border: none;
+    width: 400px;
+    outline: none;
+    font-size: 17px;
+}
+
+.search-buttons {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-buttons input {
+    background-color: #f8f9fa;
+    border: none;
+    height: 36px;
+    text-align: center;
+    color: #3c4043;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11 4px;
+}
+
+.search-buttons input:hover {
+    cursor: pointer;
+}
+
+main p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #4d5156;
+}
+
+main strong {
+    font-weight: normal;
+    color: #1a0dab;
+    cursor: pointer;
+}
+
+main strong:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer p {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+footer a {
+    font-size: 14px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-right {
+    padding: 15px 30px;
+    /* justify-content: right; */
+}
+
+.options-left {
+    padding: 15px 30px;
+}
